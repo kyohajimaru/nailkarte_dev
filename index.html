@@ -3,231 +3,179 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nail Karte | ネイリストのための、やさしく使えるカルテアプリ</title>
-  <meta name="description" content="Nail Karteは、お客様情報、施術履歴、写真、メモを自然に残せる、個人ネイリストのためのシンプルなカルテアプリです。">
+  <title>ネイルカルテ | 個人ネイリストのためのカルテアプリ</title>
+  <meta name="description" content="ネイルカルテは、個人サロン・自宅サロン・一人サロン向けのスマホで使えるカルテアプリです。顧客情報、施術履歴、写真、メモをやさしく管理できます。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="site-bg" aria-hidden="true">
-    <span class="glow glow-1" data-parallax="0.08"></span>
-    <span class="glow glow-2" data-parallax="-0.06"></span>
-    <span class="glass-ball ball-1" data-parallax="0.12"></span>
-    <span class="glass-ball ball-2" data-parallax="-0.1"></span>
-    <span class="glass-ball ball-3" data-parallax="0.06"></span>
-    <span class="shimmer shimmer-1" data-parallax="-0.04"></span>
-    <span class="shimmer shimmer-2" data-parallax="0.05"></span>
+  <div class="background-decor" aria-hidden="true">
+    <span class="glass-ball glass-ball-a"></span>
+    <span class="glass-ball glass-ball-b"></span>
+    <span class="glass-ball glass-ball-c"></span>
+    <span class="light-streak light-streak-a"></span>
+    <span class="light-streak light-streak-b"></span>
   </div>
 
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Nail Karte トップへ">
+    <a class="brand" href="#top" aria-label="ネイルカルテ トップへ">
       <span class="brand-mark">N</span>
       <span>Nail Karte</span>
     </a>
-    <nav class="site-nav" aria-label="メインナビゲーション">
-      <a href="#worries">悩み</a>
-      <a href="#features">機能</a>
-      <a href="#price">料金</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <a class="nav-cta" href="#price">無料で試す</a>
+    <a class="header-button" href="#price">無料で試す</a>
   </header>
 
   <main id="top">
     <section class="hero section">
-      <div class="hero-copy fade-up">
-        <p class="eyebrow">Nail Karte App</p>
-        <h1>ネイリストのための、<br>やさしく使える<br><span>カルテアプリ。</span></h1>
-        <p class="hero-sub">紙カルテから、もっと自然に。</p>
-        <p class="hero-text">お客様情報、施術履歴、写真、メモ。毎日のサロンワークに寄り添う、個人ネイリストのためのシンプルなカルテアプリです。</p>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Nail salon app</p>
+        <h1>かわいく整う、<br>ネイリストの<br>カルテ管理。</h1>
+        <p class="hero-lead">紙カルテ、写真、メモ、売上。毎日のサロンワークをスマホひとつでやさしくまとめる、個人ネイリストのためのカルテアプリです。</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#price">無料で試す</a>
-          <a class="button button-soft" href="#features">機能を見る</a>
+          <a class="button button-glass" href="#features">機能を見る</a>
         </div>
       </div>
 
-      <div class="hero-art fade-in">
-        <div class="hero-gradient" data-parallax="0.04"></div>
-        <div class="mockup-placeholder">
-          <div class="mockup-top">
-            <span></span>
-            <span></span>
-          </div>
-          <div class="mockup-card">
-            <small>Customer</small>
-            <strong>Misaki Yamada</strong>
-            <p>Sheer pink / One color</p>
-          </div>
-          <div class="mockup-list">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="mockup-bottom">
-            <b>¥286,500</b>
-            <em>Monthly sales</em>
-          </div>
+      <div class="hero-visual reveal">
+        <div class="mockup-placeholder" aria-label="iPhoneモックアップ画像差し替えエリア">
+          <span class="mockup-label">iPhone mockup</span>
+          <span class="mockup-note">画像差し替えスペース</span>
         </div>
       </div>
     </section>
 
-    <section class="section" id="worries">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Salon Worries</p>
-        <h2>小さなサロンほど、<br>カルテ管理はやさしく。</h2>
+    <section class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">For small salon</p>
+        <h2>ひとりで頑張るサロンに、<br>ちょうどいい軽さ。</h2>
+        <p>予約前の確認も、施術後の記録も、次回提案も。気負わず続けられる管理体験にしました。</p>
       </div>
-      <div class="soft-grid three">
-        <article class="glass-card fade-up">
+      <div class="card-list">
+        <article class="glass-card reveal">
           <span>01</span>
-          <h3>紙のカルテが増えていく</h3>
-          <p>探す時間が増えて、施術前の確認が少しずつ負担に。</p>
+          <h3>紙カルテが増えて探しにくい</h3>
+          <p>お客様の好みや前回デザインを、来店前にすぐ確認できます。</p>
         </article>
-        <article class="glass-card fade-up">
+        <article class="glass-card reveal">
           <span>02</span>
-          <h3>写真とメモが別々になる</h3>
-          <p>前回のデザイン、会話、注意点がスマホの中で散らばりがち。</p>
+          <h3>写真とメモがバラバラになる</h3>
+          <p>施術写真、メニュー、会話メモをお客様ごとにまとめます。</p>
         </article>
-        <article class="glass-card fade-up">
+        <article class="glass-card reveal">
           <span>03</span>
-          <h3>売上や予定も見返したい</h3>
-          <p>お客様ごとの履歴とサロン全体の流れを自然に把握したい。</p>
+          <h3>売上や予定も自然に見たい</h3>
+          <p>毎月の売上や次回来店予定まで、スマホでやさしく把握できます。</p>
         </article>
       </div>
     </section>
 
-    <section class="section solution-section" id="solution">
-      <div class="wide-glass fade-up">
-        <p class="eyebrow">Simple Solution</p>
-        <h2>お客様ごとの大切な記録を、<br>ひとつの場所に。</h2>
-        <p>Nail Karteは、紙カルテの安心感をそのままに、写真・メモ・施術履歴・次回来店予定まで、スマホで自然に残せるように設計しています。</p>
-        <div class="pill-row">
-          <span>Customer</span>
-          <span>History</span>
-          <span>Photo</span>
-          <span>Memo</span>
-          <span>Schedule</span>
+    <section class="section solution">
+      <div class="wide-card reveal">
+        <p class="eyebrow">Simple & cute</p>
+        <h2>業務システムっぽくない、<br>美容サロンのための管理画面。</h2>
+        <p>韓国コスメのような淡いトーンと、Notionのように見やすい情報整理。ネイルカルテは、使うたびに少し気分が整うアプリを目指しています。</p>
+        <div class="tag-row">
+          <span>顧客管理</span>
+          <span>写真</span>
+          <span>メモ</span>
+          <span>売上</span>
         </div>
       </div>
     </section>
 
     <section class="section" id="features">
-      <div class="section-head fade-up">
+      <div class="section-heading reveal">
         <p class="eyebrow">Features</p>
-        <h2>毎日のサロンワークに<br>必要なことだけ。</h2>
+        <h2>サロンワークに必要な機能を、<br>シンプルに。</h2>
       </div>
       <div class="feature-grid">
-        <article class="feature-card fade-up"><span>01</span><h3>顧客管理</h3><p>お客様情報をすっきり整理。</p></article>
-        <article class="feature-card fade-up"><span>02</span><h3>施術履歴</h3><p>メニュー、金額、仕上がりを記録。</p></article>
-        <article class="feature-card fade-up"><span>03</span><h3>写真管理</h3><p>デザイン写真をお客様ごとに保存。</p></article>
-        <article class="feature-card fade-up"><span>04</span><h3>スタッフメモ</h3><p>会話や注意点をやさしく残せます。</p></article>
-        <article class="feature-card fade-up"><span>05</span><h3>カレンダー</h3><p>次回来店予定を見やすく確認。</p></article>
-        <article class="feature-card fade-up"><span>06</span><h3>売上管理</h3><p>月ごとの売上をさっと把握。</p></article>
-        <article class="feature-card fade-up"><span>07</span><h3>メニュー設定</h3><p>よく使うメニューを登録。</p></article>
-        <article class="feature-card fade-up"><span>08</span><h3>Face ID</h3><p>大切な情報を手軽に守ります。</p></article>
-        <article class="feature-card fade-up"><span>09</span><h3>バックアップ</h3><p>記録を安心して残せる設計へ。</p></article>
+        <article class="feature-card reveal"><span>Customer</span><h3>顧客管理</h3><p>名前、連絡先、好みを見やすく保存。</p></article>
+        <article class="feature-card reveal"><span>History</span><h3>施術履歴</h3><p>メニュー、金額、仕上がりを記録。</p></article>
+        <article class="feature-card reveal"><span>Photo</span><h3>写真管理</h3><p>デザイン写真をお客様ごとに整理。</p></article>
+        <article class="feature-card reveal"><span>Memo</span><h3>メモ</h3><p>会話や注意点を次回に活かせます。</p></article>
+        <article class="feature-card reveal"><span>Schedule</span><h3>予定管理</h3><p>次回来店予定をスマホで確認。</p></article>
+        <article class="feature-card reveal"><span>Sales</span><h3>売上管理</h3><p>月ごとの売上をすっきり把握。</p></article>
       </div>
     </section>
 
     <section class="section">
-      <div class="section-head fade-up">
-        <p class="eyebrow">How To Use</p>
-        <h2>使い方は、いつもの接客に<br>そっと足すだけ。</h2>
+      <div class="section-heading reveal">
+        <p class="eyebrow">How it works</p>
+        <h2>いつもの接客に、<br>そっと足すだけ。</h2>
       </div>
       <div class="steps">
-        <article class="step-card fade-up"><span>Step 01</span><h3>お客様を登録</h3><p>名前や連絡先、好みを最初にまとめます。</p></article>
-        <article class="step-card fade-up"><span>Step 02</span><h3>施術後に記録</h3><p>写真、メニュー、メモをその場で残します。</p></article>
-        <article class="step-card fade-up"><span>Step 03</span><h3>次回来店で確認</h3><p>前回の内容を見返して、提案をスムーズに。</p></article>
+        <article class="step-card reveal"><span>Step 1</span><h3>お客様を登録</h3><p>初回来店時に基本情報をまとめます。</p></article>
+        <article class="step-card reveal"><span>Step 2</span><h3>施術後に記録</h3><p>写真、メニュー、メモを残します。</p></article>
+        <article class="step-card reveal"><span>Step 3</span><h3>次回に活かす</h3><p>履歴を見返して提案をスムーズに。</p></article>
       </div>
     </section>
 
     <section class="section" id="price">
-      <div class="section-head fade-up">
+      <div class="section-heading reveal">
         <p class="eyebrow">Price</p>
-        <h2>小さく始めて、<br>必要になったら広げる。</h2>
+        <h2>小さく始められる、<br>やさしい料金。</h2>
       </div>
-      <div class="price-grid">
-        <article class="price-card fade-up">
-          <p class="plan">Free</p>
-          <h3>無料</h3>
-          <p>顧客10人まで、基本機能をお試しいただけます。</p>
-          <a class="button button-soft" href="#cta">無料で試す</a>
-        </article>
-        <article class="price-card featured fade-up">
-          <p class="plan">One Time</p>
-          <h3>1,480円<span>税込</span></h3>
-          <p>顧客数の上限なく、買い切りでずっと使えます。</p>
-          <a class="button button-primary" href="#cta">プランを見る</a>
-        </article>
+      <div class="price-card reveal">
+        <p class="plan-name">Free plan</p>
+        <h3>無料</h3>
+        <p>顧客10人まで、基本機能をお試しいただけます。</p>
+        <a class="button button-primary" href="#cta">無料で試す</a>
       </div>
     </section>
 
     <section class="section">
-      <div class="section-head fade-up">
-        <p class="eyebrow">For You</p>
+      <div class="section-heading reveal">
+        <p class="eyebrow">Recommended</p>
         <h2>こんなネイリストさんに。</h2>
       </div>
-      <div class="soft-grid four">
-        <article class="mini-card fade-up">一人で予約から施術まで対応している</article>
-        <article class="mini-card fade-up">紙カルテを少しずつ減らしたい</article>
-        <article class="mini-card fade-up">写真とメモをきれいに残したい</article>
-        <article class="mini-card fade-up">サロンワークをやさしく整えたい</article>
+      <div class="mini-grid">
+        <article class="mini-card reveal">個人サロン</article>
+        <article class="mini-card reveal">自宅サロン</article>
+        <article class="mini-card reveal">一人サロン</article>
+        <article class="mini-card reveal">写真管理を整えたい方</article>
       </div>
     </section>
 
-    <section class="section">
-      <div class="assurance fade-up">
-        <p class="eyebrow">Peace Of Mind</p>
-        <h2>大切なお客様情報だから、<br>安心して扱えるように。</h2>
-        <p>Face IDやパスコードロック、バックアップを見据えた設計で、個人サロンでも無理なく続けられる管理体験を目指しています。</p>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="section-head fade-up">
+    <section class="section faq-section" id="faq">
+      <div class="section-heading reveal">
         <p class="eyebrow">FAQ</p>
         <h2>よくある質問</h2>
       </div>
-      <div class="faq-list fade-up">
+      <div class="faq-list reveal">
         <details open>
-          <summary>無料でどこまで使えますか？</summary>
-          <p>顧客10人まで、基本機能を無料でお使いいただけます。</p>
-        </details>
-        <details>
           <summary>スマホだけで使えますか？</summary>
-          <p>はい。個人ネイリストがスマホで扱いやすい体験を想定しています。</p>
+          <p>はい。個人ネイリストがスマホで使いやすい画面を想定しています。</p>
         </details>
         <details>
           <summary>写真も保存できますか？</summary>
           <p>施術履歴ごとに写真を残し、次回提案に活かせる設計です。</p>
         </details>
         <details>
-          <summary>買い切りプランですか？</summary>
-          <p>有料プランは買い切り想定で、毎月の固定費を抑えられます。</p>
+          <summary>無料で試せますか？</summary>
+          <p>顧客10人まで無料でお使いいただける想定です。</p>
         </details>
       </div>
     </section>
 
-    <section class="section final-section" id="cta">
-      <div class="final-card fade-up">
+    <section class="section final-cta" id="cta">
+      <div class="final-card reveal">
         <p class="eyebrow">Start Nail Karte</p>
-        <h2>紙カルテから、<br>もっと自然に。</h2>
-        <p>毎日のサロンワークに、やさしく寄り添うカルテアプリを。</p>
-        <div class="hero-actions center">
-          <a class="button button-primary" href="#price">無料で試す</a>
-          <a class="button button-soft" href="#features">機能を見る</a>
-        </div>
+        <h2>紙カルテから、<br>もっとかわいく自然に。</h2>
+        <p>毎日のサロンワークを、やさしく整えるカルテアプリを始めませんか。</p>
+        <a class="button button-primary" href="#price">無料で試す</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a class="brand" href="#top"><span class="brand-mark">N</span><span>Nail Karte</span></a>
-    <p>ネイリストのための、やさしいカルテアプリ。</p>
+    <a class="brand" href="#top">
+      <span class="brand-mark">N</span>
+      <span>Nail Karte</span>
+    </a>
     <small>© 2026 Nail Karte</small>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
