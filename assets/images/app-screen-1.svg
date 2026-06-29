@@ -1,0 +1,22 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="960" rx="48" fill="#FFFDFB"/>
+  <rect x="190" y="36" width="340" height="888" rx="58" fill="#FFFDFB" stroke="#E8DDD7" stroke-width="10"/>
+  <rect x="224" y="76" width="272" height="808" rx="42" fill="#FFFFFF"/>
+  <rect x="324" y="54" width="72" height="12" rx="6" fill="#EEE4DE"/>
+  <rect x="246" y="114" width="92" height="16" rx="8" fill="#E7CFC4"/>
+  <rect x="246" y="146" width="180" height="16" rx="8" fill="#F6EFEC"/>
+  <rect x="246" y="204" width="228" height="116" rx="24" fill="#FFF7F7" stroke="#E8DDD7"/>
+  <rect x="246" y="336" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
+  <rect x="246" y="424" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
+  <rect x="246" y="512" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
+  <rect x="246" y="628" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
+  <rect x="246" y="736" width="228" height="56" rx="28" fill="#FFCCCC"/>
+  <text x="360" y="156" text-anchor="middle" fill="#3F3A37" font-family="Noto Sans JP, sans-serif" font-size="22" font-weight="500">顧客詳細</text>
+  <text x="360" y="262" text-anchor="middle" fill="#3F3A37" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="500">山田 美咲さま</text>
+  <text x="360" y="374" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">アレルギー / メモ</text>
+  <text x="360" y="462" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">施術履歴</text>
+  <text x="360" y="550" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">写真</text>
+  <text x="360" y="672" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">次回来店予定</text>
+  <text x="360" y="772" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="700">保存する</text>
+</svg>
+
