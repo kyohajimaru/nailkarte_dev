@@ -1,17 +1,17 @@
 <svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="720" height="960" rx="48" fill="#FFFDFB"/>
+  <rect width="720" height="960" rx="48" fill="#FBF8F6"/>
   <rect x="190" y="36" width="340" height="888" rx="58" fill="#FFFDFB" stroke="#E8DDD7" stroke-width="10"/>
   <rect x="224" y="76" width="272" height="808" rx="42" fill="#FFFFFF"/>
   <rect x="324" y="54" width="72" height="12" rx="6" fill="#EEE4DE"/>
-  <rect x="246" y="114" width="92" height="16" rx="8" fill="#E7CFC4"/>
-  <rect x="246" y="146" width="180" height="16" rx="8" fill="#F6EFEC"/>
-  <rect x="246" y="206" width="228" height="208" rx="24" fill="#FFF7F7" stroke="#E8DDD7"/>
+  <rect x="246" y="114" width="92" height="16" rx="8" fill="#E9C6CB"/>
+  <rect x="246" y="146" width="180" height="16" rx="8" fill="#F4D3D6"/>
+  <rect x="246" y="206" width="228" height="208" rx="24" fill="#FBF8F6" stroke="#E8DDD7"/>
   <rect x="246" y="438" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
   <rect x="246" y="526" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
   <rect x="246" y="614" width="228" height="72" rx="20" fill="#FFFFFF" stroke="#E8DDD7"/>
-  <rect x="246" y="736" width="228" height="56" rx="28" fill="#FFCCCC"/>
-  <text x="360" y="156" text-anchor="middle" fill="#3F3A37" font-family="Noto Sans JP, sans-serif" font-size="22" font-weight="500">施術履歴</text>
-  <text x="360" y="266" text-anchor="middle" fill="#3F3A37" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="500">シアーピンク</text>
+  <rect x="246" y="736" width="228" height="56" rx="28" fill="#E9C6CB"/>
+  <text x="360" y="156" text-anchor="middle" fill="#2F2A28" font-family="Noto Sans JP, sans-serif" font-size="22" font-weight="500">施術履歴</text>
+  <text x="360" y="266" text-anchor="middle" fill="#2F2A28" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="500">シアーピンク</text>
   <text x="360" y="304" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">ワンカラー / ¥7,500</text>
   <text x="360" y="342" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">写真を2枚保存</text>
   <text x="360" y="476" text-anchor="middle" fill="#5B5450" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="500">メモ</text>

@@ -5,8 +5,6 @@ const screenSlides = Array.from(document.querySelectorAll(".screen-slide"));
 const screenDots = Array.from(document.querySelectorAll("[data-screen-dot]"));
 const prevButton = document.querySelector("[data-screen-prev]");
 const nextButton = document.querySelector("[data-screen-next]");
-const faqItems = Array.from(document.querySelectorAll(".faq-item"));
-const mqMobile = window.matchMedia("(max-width: 767px)");
 
 let activeScreen = 0;
 
@@ -52,25 +50,3 @@ screenDots.forEach((dot) => {
 
 prevButton?.addEventListener("click", () => updateScreens(activeScreen - 1));
 nextButton?.addEventListener("click", () => updateScreens(activeScreen + 1));
-
-faqItems.forEach((item) => {
-  const trigger = item.querySelector(".faq-trigger");
-  const panel = item.querySelector(".faq-panel");
-
-  const setOpen = (open) => {
-    item.classList.toggle("is-open", open);
-    trigger.setAttribute("aria-expanded", String(open));
-    panel.setAttribute("aria-hidden", String(!open));
-  };
-
-  trigger.addEventListener("click", () => {
-    const open = !item.classList.contains("is-open");
-    setOpen(open);
-  });
-});
-
-if (mqMobile.matches) {
-  updateScreens(0);
-} else {
-  updateScreens(0);
-}

@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nelkar | ネイリストのためのカルテアプリ</title>
   <meta name="description" content="Nelkarは、個人ネイリストや一人サロンのためのカルテアプリです。顧客情報、施術履歴、写真、次回来店予定、売上をシンプルに管理できます。">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +18,6 @@
         <a href="#concept">Concept</a>
         <a href="#features">Features</a>
         <a href="#price">Price</a>
-        <a href="#faq">FAQ</a>
       </nav>
       <a class="nav-cta" href="#price">無料で試す</a>
     </div>
@@ -29,59 +25,36 @@
 
   <main id="top">
     <!-- Hero -->
-    <section class="hero section" id="hero">
+    <section class="hero section">
       <div class="hero-copy reveal">
-        <p class="hero-eyebrow">Nail Karte</p>
+        <p class="hero-eyebrow">Nelkar</p>
         <h1 class="hero-title">ネイリストのための、<br><span>やさしく使える</span><br>カルテアプリ。</h1>
         <p class="hero-text">顧客情報、施術履歴、写真、次回来店予定まで。<br>一人サロン・個人サロンの毎日に寄り添う、シンプルなネイルカルテです。</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#price">無料で試す</a>
           <a class="button button-secondary" href="#features">機能を見る</a>
         </div>
-        <div class="scroll-indicator" aria-hidden="true">
-          <span>Scroll</span>
-          <i></i>
-        </div>
+        <p class="hero-note">Scroll down</p>
       </div>
 
-      <div class="hero-visual reveal" aria-label="Nelkarのアプリ画面イメージ">
-        <div class="hero-art">
-          <img src="assets/images/hero-device.svg" alt="Nelkar アプリのモックアップ">
+      <div class="hero-visual reveal">
+        <div class="hero-photo-frame">
+          <img src="assets/images/hero-editorial.svg" alt="Nelkarのブランドビジュアル">
         </div>
       </div>
     </section>
 
-    <!-- Pain Points -->
-    <section class="section section-points" id="pain-points">
-      <div class="two-col">
+    <!-- Concept -->
+    <section class="section section-concept" id="concept">
+      <div class="concept-grid">
         <div class="section-heading left reveal">
-          <p class="eyebrow">Pain points</p>
-          <h2>紙カルテやメモが、<br>少しずつ散らばっていく。</h2>
-          <p>お客様のことを丁寧に覚えておきたいのに、情報が分かれてしまう。<br>Nelkarは、その小さな手間をやさしく整えます。</p>
+          <p class="eyebrow">Concept</p>
+          <h2>紙カルテを、<br>もっとやさしく。</h2>
+          <p>Nelkar は、大型サロン向けの多機能システムではありません。<br>個人ネイリストや少人数サロンが、お客様一人ひとりの記録を丁寧に残せるカルテアプリです。</p>
         </div>
-        <div class="point-list reveal">
-          <article class="point-card">
-            <span>01</span>
-            <p>紙カルテを探す時間がかかる。</p>
-          </article>
-          <article class="point-card">
-            <span>02</span>
-            <p>施術写真がフォルダの中で埋もれる。</p>
-          </article>
-          <article class="point-card">
-            <span>03</span>
-            <p>前回の会話や好みをすぐに思い出せない。</p>
-          </article>
+        <div class="concept-visual reveal">
+          <img src="assets/images/concept-editorial.svg" alt="淡いピンクのコンセプトビジュアル">
         </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section class="section section-about" id="concept">
-      <div class="about-panel reveal">
-        <p class="eyebrow">Concept</p>
-        <h2>紙カルテを、<br>もっとやさしく。</h2>
-        <p>Nail Karte は、大型サロン向けの多機能システムではありません。<br>一人サロンや少人数サロンのネイリストが、お客様一人ひとりの記録を丁寧に残せる、シンプルなカルテアプリです。</p>
       </div>
     </section>
 
@@ -93,36 +66,36 @@
       </div>
       <div class="features-grid">
         <article class="feature-card reveal">
-          <div class="feature-icon" aria-hidden="true">◎</div>
+          <div class="feature-media"><img src="assets/images/feature-1.svg" alt="お客様情報のイメージ"></div>
           <h3>お客様情報</h3>
           <p>名前、住所、誕生日、アレルギー、自由メモをすっきり管理。</p>
         </article>
         <article class="feature-card reveal">
-          <div class="feature-icon" aria-hidden="true">◌</div>
+          <div class="feature-media"><img src="assets/images/feature-2.svg" alt="施術履歴と写真のイメージ"></div>
           <h3>施術履歴と写真</h3>
           <p>メニュー、金額、施術メモ、写真をお客様ごとに残せます。</p>
         </article>
         <article class="feature-card reveal">
-          <div class="feature-icon" aria-hidden="true">⌁</div>
+          <div class="feature-media"><img src="assets/images/feature-3.svg" alt="カレンダーのイメージ"></div>
           <h3>カレンダー</h3>
           <p>来店日、次回来店予定、お客様の誕生日をカレンダーで確認。</p>
         </article>
-        <article class="feature-card reveal">
-          <div class="feature-icon" aria-hidden="true">✦</div>
-          <h3>売上管理</h3>
-          <p>施術履歴の金額から、月の売上をシンプルに確認。</p>
-        </article>
       </div>
-      <p class="feature-footnote reveal">Face ID / バックアップ / メニュー設定 / スタッフ用メモ</p>
+      <div class="feature-inline reveal">
+        <span>Face ID</span>
+        <span>Backup</span>
+        <span>Menu settings</span>
+        <span>Staff memo</span>
+      </div>
     </section>
 
     <!-- App Screens -->
     <section class="section section-screens" id="app-screens">
-      <div class="two-col screens-layout">
+      <div class="screens-layout">
         <div class="section-heading left reveal">
           <p class="eyebrow">App screens</p>
           <h2>開いた瞬間、<br>すぐにわかる。</h2>
-          <p>大きな文字、少ない選択肢、迷わない導線。お客様の前でも自然に使える、やさしい画面設計です。</p>
+          <p>大きな文字、少ない選択肢、迷わない導線。<br>お客様の前でも自然に使える、やさしい画面設計です。</p>
           <div class="screen-controls" aria-label="画面切り替え">
             <button class="screen-control" type="button" data-screen-prev aria-label="前の画面">←</button>
             <div class="screen-dots" aria-hidden="true">
@@ -133,6 +106,7 @@
             <button class="screen-control" type="button" data-screen-next aria-label="次の画面">→</button>
           </div>
         </div>
+
         <div class="screen-carousel reveal">
           <div class="screen-track" data-screen-track>
             <figure class="screen-slide is-active">
@@ -146,31 +120,6 @@
             </figure>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- How To Use -->
-    <section class="section section-steps" id="how-to-use">
-      <div class="section-heading reveal">
-        <p class="eyebrow">How to use</p>
-        <h2>使い方は、<br>3ステップ。</h2>
-      </div>
-      <div class="steps-grid">
-        <article class="step-card reveal">
-          <span>01</span>
-          <h3>お客様を登録</h3>
-          <p>名前や連絡先を入力するだけで準備完了。</p>
-        </article>
-        <article class="step-card reveal">
-          <span>02</span>
-          <h3>施術内容を記録</h3>
-          <p>メニュー、写真、メモをその場で保存。</p>
-        </article>
-        <article class="step-card reveal">
-          <span>03</span>
-          <h3>次回来店時に見返す</h3>
-          <p>前回の情報を見ながら、やさしく提案できます。</p>
-        </article>
       </div>
     </section>
 
@@ -191,68 +140,6 @@
           <h3>1,480円<span>買い切り</span></h3>
           <span>月額なし。一度の購入で、ずっと使えます。</span>
           <a class="button button-primary" href="#cta">無料で試す</a>
-        </article>
-      </div>
-    </section>
-
-    <!-- Security -->
-    <section class="section section-security">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Security</p>
-        <h2>大切な記録を、<br>安心して残せるように。</h2>
-      </div>
-      <div class="security-grid">
-        <article class="security-card reveal">
-          <div class="feature-icon" aria-hidden="true">⟡</div>
-          <h3>Face ID</h3>
-          <p>見られたくない情報も、やさしく保護。</p>
-        </article>
-        <article class="security-card reveal">
-          <div class="feature-icon" aria-hidden="true">◦</div>
-          <h3>バックアップ</h3>
-          <p>記録を残して、いつでも見返せる安心感。</p>
-        </article>
-        <article class="security-card reveal">
-          <div class="feature-icon" aria-hidden="true">⌂</div>
-          <h3>シンプル運用</h3>
-          <p>複雑すぎない設計で、毎日のサロンワークに自然になじみます。</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="section section-faq" id="faq">
-      <div class="section-heading reveal">
-        <p class="eyebrow">FAQ</p>
-        <h2>よくある質問</h2>
-      </div>
-      <div class="faq-list">
-        <article class="faq-item reveal">
-          <button class="faq-trigger" type="button" aria-expanded="false">
-            無料でどこまで使えますか？
-            <span>+</span>
-          </button>
-          <div class="faq-panel" aria-hidden="true">
-            <p>顧客10人まで、基本機能を無料でお使いいただけます。</p>
-          </div>
-        </article>
-        <article class="faq-item reveal">
-          <button class="faq-trigger" type="button" aria-expanded="false">
-            スマホだけで使えますか？
-            <span>+</span>
-          </button>
-          <div class="faq-panel" aria-hidden="true">
-            <p>はい。スマホで日々の記録を完結できる体験を想定しています。</p>
-          </div>
-        </article>
-        <article class="faq-item reveal">
-          <button class="faq-trigger" type="button" aria-expanded="false">
-            写真も保存できますか？
-            <span>+</span>
-          </button>
-          <div class="faq-panel" aria-hidden="true">
-            <p>施術履歴ごとに写真を残し、次回の提案に活かせます。</p>
-          </div>
         </article>
       </div>
     </section>
