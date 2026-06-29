@@ -11,7 +11,7 @@
   <rect x="658" y="94" width="416" height="122" rx="26" fill="#FFFDF9"/>
   <rect x="658" y="242" width="416" height="178" rx="26" fill="#FFFDF9"/>
   <rect x="658" y="444" width="416" height="248" rx="26" fill="#FFFDF9"/>
-  <text x="165" y="170" fill="#2F2A28" font-family="birra-pils, -apple-system, BlinkMacSystemFont, sans-serif" font-size="34" font-weight="500" letter-spacing="0.08em">NELKAR</text>
+  <text x="165" y="170" fill="#2F2A28" font-family="Cormorant Garamond, Georgia, serif" font-size="34" font-weight="500" letter-spacing="0.08em">NELKAR</text>
   <text x="165" y="220" fill="#5F5552" font-family="Noto Sans JP, sans-serif" font-size="24" font-weight="400">ネイリストのための、</text>
   <text x="165" y="255" fill="#5F5552" font-family="Noto Sans JP, sans-serif" font-size="24" font-weight="400">やさしく使えるカルテ</text>
   <text x="165" y="290" fill="#5F5552" font-family="Noto Sans JP, sans-serif" font-size="24" font-weight="400">アプリ。</text>
@@ -24,4 +24,3 @@
   <text x="698" y="370" fill="#2F2A28" font-family="Noto Sans JP, sans-serif" font-size="24" font-weight="400">シンプルに見返せる。</text>
   <text x="698" y="542" fill="#2F2A28" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="400">一人サロンにちょうどいい軽さ。</text>
 </svg>
-
