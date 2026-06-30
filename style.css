@@ -70,6 +70,13 @@ img {
   place-items: center;
 }
 
+.hero-feature-logo {
+  width: min(48vw, 620px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 28px 52px rgba(98, 73, 68, 0.14));
+}
+
 .mockup-oval {
   position: absolute;
   width: clamp(360px, 36vw, 500px);
@@ -308,7 +315,11 @@ img {
 
   .hero-mockup-area {
     width: 100%;
-    min-height: 540px;
+    min-height: auto;
+  }
+
+  .hero-feature-logo {
+    width: min(90vw, 520px);
   }
 
   .mockup-oval {
@@ -328,7 +339,11 @@ img {
   }
 
   .hero-mockup-area {
-    min-height: 500px;
+    min-height: auto;
+  }
+
+  .hero-feature-logo {
+    width: min(94vw, 420px);
   }
 
   .iphone-mockup {
