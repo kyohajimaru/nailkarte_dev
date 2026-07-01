@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NalKar | ネイリストのための顧客カルテアプリ</title>
+  <title>Nail Karte | ネイリストのための顧客カルテアプリ</title>
   <meta
     name="description"
-    content="NalKarは、個人サロンのネイリストに向けたシンプルで上品な顧客カルテアプリです。"
+    content="Nail Karteは、個人サロンのネイリストに向けたシンプルで上品な顧客カルテアプリです。"
   >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,16 +17,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="first-view" aria-label="NalKar ファーストビュー">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-brand" href="#top">Nail Karte</a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="#trouble">お悩み</a>
+        <a href="#features">できること</a>
+        <a href="#price">料金</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="header-cta" href="#price">無料で使う</a>
+    </div>
+  </header>
+
+  <main id="top">
+  <section class="first-view" aria-label="Nail Karte ファーストビュー">
     <section class="hero">
       <div class="hero-logo-area">
         <img
           class="brand-logo"
           src="assets/images/Logo.png"
-          alt="NalKar"
+          alt="Nail Karte"
           width="720"
           height="320"
         >
+        <div class="hero-copy">
+          <p class="section-label">NAIL SALON KARTE APP</p>
+          <h1>ネイルサロンの<br>顧客管理を、<br>もっとシンプルに。</h1>
+          <p>
+            お客様情報・施術履歴・写真・次回来店予定・売上まで、スマホひとつでかんたん管理。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#price">顧客10人まで無料で使ってみる</a>
+            <a class="secondary-button" href="#features">アプリの特徴を見る</a>
+          </div>
+          <p class="small-note">iPhone向けアプリとして提供予定</p>
+        </div>
       </div>
 
       <div class="hero-mockup-area" aria-label="アプリ画面イメージ">
@@ -98,7 +124,171 @@
         </div>
       </div>
     </section>
+  </section>
+
+    <section class="lp-section" id="trouble">
+      <div class="section-heading">
+        <p class="section-label">SALON WORK TROUBLE</p>
+        <h2>こんなお悩みありませんか？</h2>
+      </div>
+      <div class="trouble-grid">
+        <article class="soft-card"><span>01</span><p>紙のカルテが増えて探すのが大変</p></article>
+        <article class="soft-card"><span>02</span><p>施術写真がスマホの中で埋もれてしまう</p></article>
+        <article class="soft-card"><span>03</span><p>前回のデザインや会話内容を忘れてしまう</p></article>
+        <article class="soft-card"><span>04</span><p>次回来店予定や管理を手書きでしている</p></article>
+        <article class="soft-card"><span>05</span><p>売上やメニューを別々で管理している</p></article>
+      </div>
+    </section>
+
+    <section class="lp-section split-section" id="solution">
+      <div class="section-heading left">
+        <p class="section-label">ALL IN ONE</p>
+        <h2>ネイルカルテなら、<br>すべてスマホで<br>まとめて管理。</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          お客様との大切な情報を、いつでも・どこでも・かんたんに。紙カルテやメモ帳、写真フォルダに散らばった情報を、お客様ごとに見返せます。
+        </p>
+        <div class="tag-list">
+          <span>顧客管理</span>
+          <span>施術履歴</span>
+          <span>写真保存</span>
+          <span>次回来店予定</span>
+          <span>売上確認</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-section" id="reasons">
+      <div class="section-heading">
+        <p class="section-label">REASONS</p>
+        <h2>ネイルカルテが選ばれる3つの理由</h2>
+      </div>
+      <div class="card-grid three">
+        <article class="soft-card">
+          <span>01</span>
+          <h3>低コストで始められる</h3>
+          <p>顧客10人まで無料。有料プランも買い切りで、毎月の固定費がかかりません。</p>
+        </article>
+        <article class="soft-card">
+          <span>02</span>
+          <h3>ネイルサロンに特化</h3>
+          <p>ネイルサロンに必要な機能だけをシンプルにまとめたから、迷わずすぐに使えます。</p>
+        </article>
+        <article class="soft-card">
+          <span>03</span>
+          <h3>スマホだけで完結</h3>
+          <p>パソコンがなくてもOK。いつでもどこでもサロンワークをスムーズにサポートします。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="lp-section" id="features">
+      <div class="section-heading">
+        <p class="section-label">FEATURES</p>
+        <h2>ネイルカルテでできること</h2>
+      </div>
+      <div class="card-grid">
+        <article class="soft-card"><span>01</span><h3>顧客管理</h3><p>お客様情報をひと目で確認</p></article>
+        <article class="soft-card"><span>02</span><h3>施術履歴</h3><p>メニュー・金額・メモを記録</p></article>
+        <article class="soft-card"><span>03</span><h3>写真保存</h3><p>ビフォーアフターも管理</p></article>
+        <article class="soft-card"><span>04</span><h3>次回来店予定</h3><p>リマインダーで来店忘れを防止</p></article>
+        <article class="soft-card"><span>05</span><h3>売上集計</h3><p>月ごとの売上を自動集計</p></article>
+      </div>
+    </section>
+
+    <section class="lp-section" id="howto">
+      <div class="section-heading">
+        <p class="section-label">HOW TO USE</p>
+        <h2>使い方はかんたん3ステップ</h2>
+      </div>
+      <div class="card-grid three">
+        <article class="soft-card"><span>STEP 01</span><h3>お客様を登録</h3><p>お名前や連絡先を入力するだけ。</p></article>
+        <article class="soft-card"><span>STEP 02</span><h3>施術内容と写真を記録</h3><p>メニューやメモ、写真を保存。</p></article>
+        <article class="soft-card"><span>STEP 03</span><h3>次回来店時にすぐ確認</h3><p>履歴があるから安心して施術。</p></article>
+      </div>
+    </section>
+
+    <section class="lp-section" id="price">
+      <div class="section-heading">
+        <p class="section-label">PRICE</p>
+        <h2>料金プラン</h2>
+      </div>
+      <div class="price-grid">
+        <article class="price-card">
+          <p class="plan-name">無料プラン</p>
+          <h3>顧客10人まで<br><strong>無料</strong></h3>
+          <p>すべての機能をお試しいただけます。</p>
+          <a class="primary-button" href="#top">無料で使ってみる</a>
+        </article>
+        <article class="price-card featured">
+          <p class="plan-badge">おすすめ</p>
+          <p class="plan-name">買い切りプラン</p>
+          <h3><strong>1,480円（税込）</strong></h3>
+          <p>顧客数の上限なくずっと使えます。</p>
+          <a class="primary-button" href="#top">プランを申し込む</a>
+        </article>
+      </div>
+      <div class="included-features">
+        <h3>すべてのプランで使える機能</h3>
+        <div class="tag-list">
+          <span>顧客管理</span>
+          <span>施術履歴の記録</span>
+          <span>施術写真の保存</span>
+          <span>次回来店予定の管理</span>
+          <span>誕生日通知</span>
+          <span>売上集計</span>
+          <span>メニュー設定</span>
+          <span>Face ID / パスコードロック</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-section" id="voice">
+      <div class="section-heading">
+        <p class="section-label">VOICE</p>
+        <h2>ネイリストさんの声</h2>
+      </div>
+      <div class="card-grid three">
+        <article class="soft-card"><h3>紙カルテから卒業できてスッキリしました！</h3><p>紙の管理が大変でしたが、これに変えてからお客様情報がすぐに見られて作業がスムーズに。</p><span>30代・ネイリスト歴6年</span></article>
+        <article class="soft-card"><h3>写真やメモが残せるので安心して施術できます</h3><p>前回のデザインや会話をすぐに思い出せるので、お客様との信頼も深まりました。</p><span>20代・ネイリスト歴3年</span></article>
+        <article class="soft-card"><h3>買い切りでこの機能はコスパ良すぎです！</h3><p>毎月のサブスクが嫌だったので、買い切りは本当に助かります。機能もシンプルで使いやすい。</p><span>40代・自宅サロン運営</span></article>
+      </div>
+    </section>
+
+    <section class="lp-section" id="faq">
+      <div class="section-heading">
+        <p class="section-label">FAQ</p>
+        <h2>よくある質問</h2>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item"><h3>Q. 無料でどこまで使えますか？</h3><p>A. 顧客10人まで、基本機能を無料でお使いいただけます。</p></article>
+        <article class="faq-item"><h3>Q. 写真は何枚まで保存できますか？</h3><p>A. 施術履歴ごとに複数枚の写真を保存できる想定です。</p></article>
+        <article class="faq-item"><h3>Q. 買い切りプランの支払い方法は？</h3><p>A. アプリ内課金での購入を想定しています。</p></article>
+        <article class="faq-item"><h3>Q. データのバックアップは取れますか？</h3><p>A. 今後のアップデートでバックアップ機能の追加を検討しています。</p></article>
+        <article class="faq-item"><h3>Q. 他の端末でも使えますか？</h3><p>A. 現時点ではiPhoneでの利用を想定しています。</p></article>
+        <article class="faq-item"><h3>Q. 解約や退会の必要はありますか？</h3><p>A. 買い切りプランのため、月額課金の解約手続きは不要です。</p></article>
+      </div>
+    </section>
+
+    <section class="lp-section final-cta" id="start">
+      <div class="section-heading">
+        <p class="section-label">START NAIL KARTE</p>
+        <h2>ネイルサロンの顧客管理を、<br>もっとかんたんに。</h2>
+        <div class="hero-actions centered">
+          <a class="primary-button" href="#price">顧客10人まで無料で使ってみる</a>
+          <a class="secondary-button" href="#features">アプリの詳細を見る</a>
+        </div>
+        <p class="small-note">iPhone向けアプリとして提供予定</p>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <a class="site-brand" href="#top">Nail Karte</a>
+    <p>ネイルサロンのための、やさしい顧客管理アプリ。</p>
+    <small>© 2026 Nail Karte</small>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
