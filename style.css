@@ -189,20 +189,6 @@ p {
   place-items: center;
 }
 
-.hero-floating-logo {
-  position: absolute;
-  z-index: 2;
-  top: 18px;
-  left: 50%;
-  width: min(42vw, 520px);
-  height: auto;
-  object-fit: contain;
-  opacity: 0.96;
-  pointer-events: none;
-  transform: translateX(-62%) rotate(-3deg);
-  filter: drop-shadow(0 24px 46px rgba(98, 73, 68, 0.16));
-}
-
 .mockup-oval {
   position: absolute;
   width: clamp(360px, 36vw, 500px);
@@ -691,12 +677,6 @@ p {
     width: min(88vw, 400px);
   }
 
-  .hero-floating-logo {
-    top: 0;
-    width: min(86vw, 430px);
-    transform: translateX(-56%) rotate(-3deg);
-  }
-
   .iphone-mockup {
     width: min(74vw, 300px);
   }
@@ -737,11 +717,6 @@ p {
 
   .hero-mockup-area {
     min-height: 500px;
-  }
-
-  .hero-floating-logo {
-    width: min(96vw, 360px);
-    transform: translateX(-54%) rotate(-3deg);
   }
 
   .iphone-mockup {
