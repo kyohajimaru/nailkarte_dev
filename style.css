@@ -626,8 +626,8 @@ p {
     min-height: 100svh;
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 34px;
-    padding: 48px 0 58px;
+    gap: 22px;
+    padding: 34px 0 46px;
   }
 
   .hero-logo-area {
@@ -638,7 +638,28 @@ p {
   }
 
   .brand-logo {
-    width: min(88vw, 430px);
+    width: min(74vw, 340px);
+  }
+
+  .hero-logo-area {
+    gap: 22px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(29px, 8vw, 38px);
+  }
+
+  .hero-copy > p:not(.section-label):not(.small-note) {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .hero-actions {
+    margin-top: 20px;
+  }
+
+  .small-note {
+    margin-top: 10px;
   }
 
   .hero-actions {
@@ -670,23 +691,24 @@ p {
 
   .hero-mockup-area {
     width: 100%;
-    min-height: 540px;
+    min-height: 420px;
   }
 
   .mockup-oval {
-    width: min(88vw, 400px);
+    width: min(72vw, 330px);
   }
 
   .iphone-mockup {
-    width: min(74vw, 300px);
+    width: min(58vw, 250px);
   }
 }
 
 @media (max-width: 420px) {
   .hero {
     width: min(100% - 28px, 390px);
-    gap: 26px;
-    padding-top: 40px;
+    gap: 18px;
+    padding-top: 28px;
+    padding-bottom: 38px;
   }
 
   .header-inner,
@@ -706,7 +728,8 @@ p {
   }
 
   .hero-copy h1 {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.25;
   }
 
   .primary-button,
@@ -716,11 +739,11 @@ p {
   }
 
   .hero-mockup-area {
-    min-height: 500px;
+    min-height: 350px;
   }
 
   .iphone-mockup {
-    width: min(82vw, 286px);
+    width: min(58vw, 226px);
     border-radius: 40px;
     padding: 12px;
   }
