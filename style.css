@@ -1,10 +1,10 @@
 :root {
   --bg: #ffffff;
-  --pink: #e89ca5;
-  --pink-soft: #e89ca5;
-  --text: #e89ca5;
-  --text-soft: #e89ca5;
-  --line: #e89ca5;
+  --pink: #F19CA5;
+  --pink-soft: #F19CA5;
+  --text: #F19CA5;
+  --text-soft: #F19CA5;
+  --line: #F19CA5;
   --white: #ffffff;
   --shadow: none;
   --font: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -627,14 +627,18 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    display: contents;
   }
 
   .brand-logo {
     width: min(74vw, 340px);
+    order: 1;
+    justify-self: center;
   }
 
-  .hero-logo-area {
-    gap: 22px;
+  .hero-copy {
+    order: 3;
+    text-align: center;
   }
 
   .hero-copy h1 {
@@ -684,6 +688,7 @@ p {
   .hero-mockup-area {
     width: 100%;
     min-height: 420px;
+    order: 2;
   }
 
   .mockup-oval {
