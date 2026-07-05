@@ -133,7 +133,7 @@ p {
 }
 
 .brand-logo {
-  width: clamp(340px, 36vw, 520px);
+  width: clamp(280px, 30vw, 440px);
   height: auto;
   object-fit: contain;
 }
@@ -633,7 +633,7 @@ p {
   }
 
   .brand-logo {
-    width: min(62vw, 280px);
+    width: min(54vw, 230px);
     order: 1;
     justify-self: center;
   }
