@@ -403,6 +403,22 @@ p {
 
 .lp-section {
   padding: clamp(76px, 10vw, 132px) 0;
+  position: relative;
+  z-index: 0;
+}
+
+.lp-section::before {
+  content: "";
+  position: absolute;
+  inset: 0 50%;
+  z-index: -1;
+  width: 100vw;
+  margin-left: -50vw;
+  background: var(--bg);
+}
+
+.lp-section:nth-of-type(even)::before {
+  background: var(--accent);
 }
 
 .section-heading {
