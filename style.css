@@ -6,7 +6,7 @@
   --text-soft: #000000;
   --line: #F19CA5;
   --white: #ffffff;
-  --accent: #fff4aa;
+  --accent: #fff8cf;
   --shadow: none;
   --font: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -110,7 +110,7 @@ p {
 .first-view {
   min-height: 100vh;
   overflow: hidden;
-  background: var(--bg);
+  background: var(--accent);
 }
 
 .hero {
@@ -133,7 +133,7 @@ p {
 }
 
 .brand-logo {
-  width: clamp(420px, 44vw, 620px);
+  width: clamp(340px, 36vw, 520px);
   height: auto;
   object-fit: contain;
 }
@@ -403,22 +403,7 @@ p {
 
 .lp-section {
   padding: clamp(76px, 10vw, 132px) 0;
-  position: relative;
-  z-index: 0;
-}
-
-.lp-section::before {
-  content: "";
-  position: absolute;
-  inset: 0 50%;
-  z-index: -1;
-  width: 100vw;
-  margin-left: -50vw;
   background: var(--bg);
-}
-
-.lp-section:nth-of-type(even)::before {
-  background: var(--accent);
 }
 
 .section-heading {
@@ -648,7 +633,7 @@ p {
   }
 
   .brand-logo {
-    width: min(74vw, 340px);
+    width: min(62vw, 280px);
     order: 1;
     justify-self: center;
   }
