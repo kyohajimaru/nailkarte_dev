@@ -455,6 +455,42 @@ p {
   color: var(--text);
 }
 
+.visual-section {
+  padding-top: 0;
+}
+
+.wave-photo {
+  --wave-accent: var(--pink);
+  position: relative;
+  width: min(100%, 620px);
+  margin-inline: auto;
+  padding: 0 11% 10%;
+  isolation: isolate;
+}
+
+.wave-photo__background {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 92%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.wave-photo__background path {
+  fill: var(--wave-accent);
+}
+
+.wave-photo__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+}
+
 .trouble-grid,
 .card-grid,
 .price-grid {
@@ -685,6 +721,16 @@ p {
   .section-heading.left {
     margin-inline: auto;
     text-align: center;
+  }
+
+  .wave-photo {
+    width: min(94vw, 460px);
+    padding-inline: 10%;
+    padding-bottom: 11%;
+  }
+
+  .wave-photo__background {
+    height: 90%;
   }
 
   .hero-mockup-area {

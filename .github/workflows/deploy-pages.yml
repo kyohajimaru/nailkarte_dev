@@ -32,6 +32,7 @@ jobs:
           cp index.html style.css script.js _site/
           mkdir -p _site/assets/images
           cp assets/images/Logo.png _site/assets/images/
+          cp assets/images/wave-photo-nail-artist.png _site/assets/images/
           touch _site/.nojekyll
           test -f _site/index.html
           find _site -type f | sort
