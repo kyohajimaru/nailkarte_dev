@@ -205,6 +205,24 @@ button:focus-visible {
   line-height: 1;
 }
 
+.site-brand--header {
+  color: inherit;
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  text-shadow: none;
+}
+
+.site-brand--header::before {
+  content: none;
+}
+
+.header-logo {
+  display: block;
+  width: clamp(136px, 16vw, 180px);
+  height: auto;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
